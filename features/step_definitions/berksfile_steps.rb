@@ -1,4 +1,4 @@
-Given /I have a Berksfile pointing at the community API endpoint with:/ do |contents|
+Given /I have a Berksfile pointing at the community API endpoint with:/ do |content|
   steps %Q{
     Given a file named "Berksfile" with:
       """
